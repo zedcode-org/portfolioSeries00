@@ -207,20 +207,20 @@ Once you're happy with your portfolio, it's time to share it with the world! Her
 
 2. Open `package.json` and add these lines:
    ```json
-   "homepage": "https://yourusername.github.io/portfolioSeries00",
+   "homepage": "https://yourusername.github.io/your-portfolio-name",
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d dist"
    }
    ```
-   (Replace `yourusername` with your GitHub username)
+   (Replace `yourusername` with your GitHub username and `your-portfolio-name` with your repository name)
 
 3. Deploy your site:
    ```bash
    npm run deploy
    ```
 
-4. Visit: `https://yourusername.github.io/portfolioSeries00`
+4. Visit: `https://yourusername.github.io/your-portfolio-name`
 
 ### Getting a Custom Domain (Optional)
 
